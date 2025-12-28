@@ -29,7 +29,7 @@ Memory: 4096 MB
 Network: NAT Network on Adapter 1  
 Space: 60 GB  
 
-Setting up VM1  
+# Setting up VM1  
 After starting it up you will be greeted by this screen and press next:  
 <img width="1022" height="763" alt="image" src="https://github.com/user-attachments/assets/ca8493bb-1015-4268-92fe-7e12a5ca3cf2" />  
 Then click on install now and wait a couple seconds and you will see this screen, go to the second option:  
@@ -40,6 +40,14 @@ After waiting a while, you will be greeted with this screen:
 Set the Admin password as something that can easily remembered and write it down. Then sign in when prompted and wait it for it boot up.  
 After booting up:  
 <img width="1032" height="776" alt="image" src="https://github.com/user-attachments/assets/94ba63b8-2315-466c-8228-8e8f5d6b39e2" />  
+Then click on Local Server, then Ethernet,  
+<img width="1024" height="779" alt="image" src="https://github.com/user-attachments/assets/9d4664e1-e09b-49f9-970c-f4780e2441cf" />  
+Then double click on it to open up the Ethernet Status, then click on properties, then click on TCP/IPv4, and enter in this information:  
+<img width="1025" height="770" alt="image" src="https://github.com/user-attachments/assets/921b4f89-1439-476c-858e-94bffd6e4560" />  
+Then click on OK twice, and restart the VM and login again ad the Admin account.  
+
+
+
 
 
 
