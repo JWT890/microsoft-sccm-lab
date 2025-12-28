@@ -29,3 +29,12 @@ Memory: 4096 MB
 Network: NAT Network on Adapter 1  
 Space: 60 GB  
 
+Setting up VM1  
+After starting it up you will be greeted by this screen and press next:  
+<img width="1022" height="763" alt="image" src="https://github.com/user-attachments/assets/ca8493bb-1015-4268-92fe-7e12a5ca3cf2" />  
+Then click on install now and wait a couple seconds and you will see this screen, go to the second option:  
+<img width="1029" height="769" alt="image" src="https://github.com/user-attachments/assets/6fdfe9ad-3a57-4115-bc5b-ade215d678b7" />  
+Click on next until see the option for custom installation, click on it and continue and then wait a while for the VM to install.  
+
+
+
