@@ -16,6 +16,7 @@ Memory: 4096 MB
 Space: 60 GB  
 Network: NAT Network on Adapter 1  
 Processer: 2 CPUs  
+Version: Windows 2022
 
 VM2: SCCM  
 Processer: 4 CPUs  
