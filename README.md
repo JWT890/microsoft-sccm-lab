@@ -45,6 +45,14 @@ Then click on Local Server, then Ethernet,
 Then double click on it to open up the Ethernet Status, then click on properties, then click on TCP/IPv4, and enter in this information:  
 <img width="1025" height="770" alt="image" src="https://github.com/user-attachments/assets/921b4f89-1439-476c-858e-94bffd6e4560" />  
 Then click on OK twice, and restart the VM and login again ad the Admin account.  
+After it restarts click on Manage and click on Add roles and features.  
+Then click on next a couple times till you hit server roles and check Active Directory Domain Services, then hit next a couple more times and click on install and wait a few minutes, then click close.  
+Then click on the yellow triangle icon and click promote to domain controller, and then click on add a new forest and call it lab.local and click on next and set a password for the DSRM that can be remembered.  
+Then hit next for Create DNS and for NetBIOS name it LAB and hit next, until the prerequisite check and after its done click on install and wait for it to restart.  
+After restarting, sign in as admin in the LAB NetBIOS name with the password that was set.  
+Then go back to manage and click on add roles and features once again and click on next a couple more times until you get to server roles and click on DHCP Server this time and click next a couple more times, then click on install and wait.  
+Once its done click on the flag icon and click on complete DHCP configuration, click on next, then commit and close it out.  
+
 
 
 
