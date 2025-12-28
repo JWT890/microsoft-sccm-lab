@@ -35,6 +35,13 @@ After starting it up you will be greeted by this screen and press next:
 Then click on install now and wait a couple seconds and you will see this screen, go to the second option:  
 <img width="1029" height="769" alt="image" src="https://github.com/user-attachments/assets/6fdfe9ad-3a57-4115-bc5b-ade215d678b7" />  
 Click on next until see the option for custom installation, click on it and continue and then wait a while for the VM to install.  
+After waiting a while, you will be greeted with this screen:  
+<img width="1027" height="769" alt="image" src="https://github.com/user-attachments/assets/077bfe15-56bd-405c-a581-679310fe6dd6" />  
+Set the Admin password as something that can easily remembered and write it down. Then sign in when prompted and wait it for it boot up.  
+After booting up:  
+<img width="1032" height="776" alt="image" src="https://github.com/user-attachments/assets/94ba63b8-2315-466c-8228-8e8f5d6b39e2" />  
+
+
 
 
 
