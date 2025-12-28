@@ -52,6 +52,37 @@ Then hit next for Create DNS and for NetBIOS name it LAB and hit next, until the
 After restarting, sign in as admin in the LAB NetBIOS name with the password that was set.  
 Then go back to manage and click on add roles and features once again and click on next a couple more times until you get to server roles and click on DHCP Server this time and click next a couple more times, then click on install and wait.  
 Once its done click on the flag icon and click on complete DHCP configuration, click on next, then commit and close it out.  
+Then in Server Manager click on tools and then DHCP:  
+<img width="1029" height="767" alt="image" src="https://github.com/user-attachments/assets/c91fdd00-c9fd-4e45-8480-72ba5a297ce6" />  
+Right click on IPv4 and choose New Scope and name the scope SCCMLab Scope and hit next and enter this for the IP configuration:  
+<img width="520" height="431" alt="image" src="https://github.com/user-attachments/assets/1970b640-4a1e-43d6-a8f9-1c5649c9146e" />  
+Then hit next a couple times with the lease duration set to 8 days and select yes to configuring the options now and make the default gateway 192.168.10.1, add it and hit next.  
+Then continue hitting next until you see finish and click on it.  
+Then go to tools and go to Active Directory Users and Computers and expand lab.local and right click on users and create 3 new users:  
+
+Account 1:  
+First name: SCCM Admin  
+Logon: sccmadmin  
+Password: something easily remembered, and uncheck at next login, and never expires and click on next and finish.  
+
+Account 2:
+First name: SQL Service  
+Logon: sqlservice  
+Password: something easily remembered, and uncheck at next login, and never expires.  
+
+Account 3:  
+SCCM NAA  
+Logon: sccmnaa  
+Password: something easily remembered, and uncheck at next login, and never expires.  
+
+Then refresh lab.local and go the SCCMAdmin user, what its suppose to look like:  
+<img width="839" height="527" alt="image" src="https://github.com/user-attachments/assets/24111b0d-32fc-42a1-b714-e18203b71d4e" />  
+Then right click on sccmadmin user and choose properties, then go to member of tab and click add and type Domain Admins, check names to verify and click on ok, then appy and then ok.  
+
+# Setting up VM2
+
+
+
 
 
 
