@@ -834,6 +834,11 @@ After a couple days of finding a solution, it seems the screen turns black and f
 ![Froze](./images/froze.png)    
 Seems to be doing this even after turning Memory Integrity in Core Isolation is off and running: Disable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart. Turn them both back on later to ensure security. Good stopping point. 
 
+# Architecture Diagram
+![SCCM01](./images/sccm01_internal_roles.png)   
+![Hybrid](./images/hybrid_identity_comanagement_chain.png)  
+
+
 
 
 
